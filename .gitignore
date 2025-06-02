@@ -1,0 +1,6 @@
+
+*.o
+
+*.code-workspace
+
+00_simple/test_ds2484
