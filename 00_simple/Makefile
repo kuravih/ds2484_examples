@@ -54,9 +54,6 @@ CXXFLAGS_STD = $(CXXFLAGS) -std=c++17
 
 
 # ==== build rules ====================================================================================================
-.ds2484_%.o: $(DS2484_DIR)/src/%.cpp
-	$(CXX) $(CXXFLAGS_STD) -c -o $@ $<
-
 .%.o:%.cpp $(TEST_HEADERS)
 	$(CXX) $(CXXFLAGS_STD) -c -o $@ $<
 
