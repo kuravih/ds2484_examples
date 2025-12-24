@@ -13,12 +13,5 @@ executable(
         threads_dep,
         i2c_dep
     ],
-    cpp_args : [
-        '-Wall',
-        '-Wextra',
-        '-Wunused',
-        '-Wformat',
-        '-O3'
-    ],
     install : false
 )
